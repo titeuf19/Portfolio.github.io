@@ -1,0 +1,7 @@
+.teacher img {
+    filter: grayscale(90%);
+}
+
+.teacher:hover img {
+    filter: grayscale(0%);
+}

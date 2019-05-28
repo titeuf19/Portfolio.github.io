@@ -1,0 +1,21 @@
+
+.fa-gitlab{
+    color:rgba(250, 137, 9, 0.938)!important;
+    
+    
+  }
+  
+  .fa-file-code{
+    color:hsl(0, 62%, 49%);
+  }
+  .fa-linkedin-in{
+
+    color:rgb(55, 28, 209);
+  } 
+  .page{
+      text-align: center;
+  }
+
+  .probootstrap-teacher {
+    height: 270px;
+  }

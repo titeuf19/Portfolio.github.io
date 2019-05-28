@@ -1,0 +1,21 @@
+/* Your custom css code goes here */
+
+/*start portfolio*/
+.portfolio-content h3{
+	text-align: center;
+	padding-top: 30px;
+}
+.portfolio-button {
+	display: flex;
+    justify-content: space-around;
+}
+.portfolio-p{
+	margin:30px;
+}
+.portfolio-video{
+	width: 90%;
+	padding-left: 10%;
+}
+
+
+/*End portfolio*/

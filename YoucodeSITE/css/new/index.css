@@ -1,0 +1,143 @@
+.probootstrap-page-wrapper .probootstrap-header-top .container {
+	padding: 10px;
+	width: 100%;
+}
+
+.probootstrap-page-wrapper .probootstrap-header-top .container form {
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: left;
+}
+
+.probootstrap-page-wrapper .probootstrap-header-top .container form input {
+	border: none;
+	margin: 0px 10px;
+	border-bottom: 1px solid #038dfe;
+	height: 0px;
+	font-size: 0.8em;
+	background-size: 15px;
+	background-position: 5px 5px;
+	padding: 13px 20px 15px 35px;
+	background-repeat: no-repeat;
+}
+
+.probootstrap-page-wrapper .probootstrap-header-top .container form input:focus {
+	outline: none;
+}
+
+.probootstrap-page-wrapper .probootstrap-header-top .container form input[type=email] {
+	background-image: url('../../img/avatar.png');
+}
+
+.probootstrap-page-wrapper .probootstrap-header-top .container form input[type=password] {
+	background-image: url('../../img/lock.png');	
+}
+
+.probootstrap-page-wrapper .probootstrap-header-top .container form button, .probootstrap-page-wrapper .probootstrap-header-top .container button {
+	margin: 0px 10px;
+	border: 1px solid #038dfe;
+	border-radius: 5px;
+	padding: 0px 10px;
+	background-color: #038dfe;
+	color: #fff;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+button:focus {
+	outline: none;
+}
+
+.probootstrap-page-wrapper .probootstrap-header-top .container form button:hover {
+	color: #038dfe;
+	background-color: #fff;
+}
+
+.probootstrap-page-wrapper .probootstrap-header-top .container button {
+	background-color: transparent;
+	color: #038dfe;
+	float: right;
+}
+
+.probootstrap-page-wrapper .probootstrap-header-top .container button:hover {
+	background-color: #038dfe;
+	color: #FFF;
+}
+
+/********************************/
+
+.probootstrap-flex-block .probootstrap-image {
+	height: inherit;
+}
+
+.sing {
+	display: inline;
+}
+
+.texte p {
+	overflow-y: auto;
+	height: 200px;
+}
+
+/*********************** media querie *******************************/
+
+@media only screen and (max-width: 693px) {
+
+	.blow::after {
+ 		content: "";
+    	clear: both;
+  		display: table;
+	}
+
+	form {
+		width: 100%;
+	}
+
+	form div {
+		margin: auto;
+		width: 90%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	form div input {
+		width: 45%;
+	}
+
+	.probootstrap-page-wrapper .probootstrap-header-top .container form button , .probootstrap-page-wrapper .probootstrap-header-top .container .sing button {
+		width: 90%;
+		margin: auto;
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	.probootstrap-page-wrapper .probootstrap-header-top .container button {
+		float: none;
+		margin: auto;
+	}
+
+	[class*="clo-"] {
+  		float: left;
+	}
+
+	.sing {
+		display: block;
+		text-align: center;
+	}
+
+	.probootstrap-service-2, .bootstrapyb {
+		height: 700px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	
+	form div input {
+		width: 100%;
+		display: block;
+	}
+
+	form div {
+		width: 90%;
+	}
+}
